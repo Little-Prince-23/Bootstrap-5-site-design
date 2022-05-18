@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+    color: var(--white);
+    transition: 300ms all ease-in-out ;
+}
+
+.nav a{
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+.nav a:hover{
+    color: var(--yellow);
+}
+
+.heading-image{
+    height: 20rem;
+    width: auto;
+    object-fit: cover;
+    background-image: url(./MEDIA/header-bg.png);
+}
+
+.heading-image a{
+    width: 10rem;
+}
+
+.btn-success{
+    background-color: var(--yellow);
+}
+
+.btn-info{
+    background-color: var(--blue);
+}
+
+
+
